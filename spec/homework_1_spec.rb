@@ -14,4 +14,11 @@ RSpec.describe 'Math calculations' do
   it 'substract 2 numbers to 10' do
     expect(10 - 2).to eq(8)
   end
+
+  it 'does basic math' do
+    expect(1 + 1).to eq(2)
+    expect(2 * 2).to eq(4)
+    expect(3 / 3).to eq(1)
+    expect(4 - 4).to eq(0)
+  end
 end
