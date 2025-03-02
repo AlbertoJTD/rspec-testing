@@ -1,5 +1,5 @@
 class Card
-  attr_reader :rank, :suit
+  attr_accessor :rank, :suit
 
   def initialize(rank, suit)
     @rank = rank
@@ -9,17 +9,17 @@ end
 
 
 RSpec.describe Card do
-  # This block will run before each example
-  # before do
-  #   @card = Card.new('Ace', 'Spades')
-  # end
-
-  def card
-    Card.new('Ace', 'Spades')
-  end
+  # Create a new instance of the Card class when each example is run
+  # Lazy loading: This let method is instantiated just if it is called in the example, if it is not called it is not instantiated
+  # Use '!' after 'let' to force the instantiation of the variable for each example
+  let(:card) { Card.new('Ace', 'Spades') }
+  # let(:x) { 1 + 1 }
+  # let(:y) { x + 10}
 
   it 'has a rank' do
     expect(card.rank).to eq('Ace')
+    card.rank = 'Queen'
+    expect(card.rank).to eq('Queen')
   end
 
   it 'has a suit' do
