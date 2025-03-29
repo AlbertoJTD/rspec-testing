@@ -16,5 +16,5 @@ example_id                                                | status | run_time   
 ./spec/effective_testing_with_rspec/slow_spec.rb[1:8]     | passed | 0.80081 seconds |
 ./spec/effective_testing_with_rspec/slow_spec.rb[1:9]     | passed | 0.90628 seconds |
 ./spec/effective_testing_with_rspec/slow_spec.rb[1:10]    | passed | 1 second        |
-./spec/effective_testing_with_rspec/tea_spec.rb[1:1]      | passed | 0.00049 seconds |
-./spec/effective_testing_with_rspec/tea_spec.rb[1:2]      | passed | 0.00059 seconds |
+./spec/effective_testing_with_rspec/tea_spec.rb[1:1]      | passed | 0.00048 seconds |
+./spec/effective_testing_with_rspec/tea_spec.rb[1:2]      | passed | 0.00054 seconds |
