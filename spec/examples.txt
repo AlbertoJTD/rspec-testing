@@ -1,18 +1,18 @@
-example_id                                                | status  | run_time        |
---------------------------------------------------------- | ------- | --------------- |
-./spec/effective_testing_with_rspec/cofee_spec.rb[1:1]    | passed  | 0.0006 seconds  |
-./spec/effective_testing_with_rspec/cofee_spec.rb[1:2:1]  | passed  | 0.00003 seconds |
-./spec/effective_testing_with_rspec/cofee_spec.rb[1:3]    | pending | 0.00005 seconds |
-./spec/effective_testing_with_rspec/cofee_spec.rb[1:4]    | pending | 0.00003 seconds |
-./spec/effective_testing_with_rspec/sandwich_spec.rb[1:1] | passed  | 0.00004 seconds |
-./spec/effective_testing_with_rspec/sandwich_spec.rb[1:2] | passed  | 0.00154 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:1]     | passed  | 0.1013 seconds  |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:2]     | passed  | 0.2019 seconds  |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:3]     | passed  | 0.30118 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:4]     | passed  | 0.402 seconds   |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:5]     | passed  | 0.50188 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:6]     | passed  | 0.60097 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:7]     | passed  | 0.70168 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:8]     | passed  | 0.80081 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:9]     | passed  | 0.90628 seconds |
-./spec/effective_testing_with_rspec/slow_spec.rb[1:10]    | passed  | 1 second        |
+example_id                                                | status | run_time        |
+--------------------------------------------------------- | ------ | --------------- |
+./spec/effective_testing_with_rspec/cofee_spec.rb[1:1]    | passed | 0.00046 seconds |
+./spec/effective_testing_with_rspec/cofee_spec.rb[1:2:1]  | passed | 0.00004 seconds |
+./spec/effective_testing_with_rspec/cofee_spec.rb[1:2:2]  | passed | 0.00044 seconds |
+./spec/effective_testing_with_rspec/cofee_spec.rb[1:2:3]  | passed | 0.00057 seconds |
+./spec/effective_testing_with_rspec/sandwich_spec.rb[1:1] | passed | 0.00004 seconds |
+./spec/effective_testing_with_rspec/sandwich_spec.rb[1:2] | passed | 0.00154 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:1]     | passed | 0.1013 seconds  |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:2]     | passed | 0.2019 seconds  |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:3]     | passed | 0.30118 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:4]     | passed | 0.402 seconds   |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:5]     | passed | 0.50188 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:6]     | passed | 0.60097 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:7]     | passed | 0.70168 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:8]     | passed | 0.80081 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:9]     | passed | 0.90628 seconds |
+./spec/effective_testing_with_rspec/slow_spec.rb[1:10]    | passed | 1 second        |
