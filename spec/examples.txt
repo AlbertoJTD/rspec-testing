@@ -1,6 +1,6 @@
 example_id                                                | status | run_time        |
 --------------------------------------------------------- | ------ | --------------- |
-./spec/effective_testing_with_rspec/cofee_spec.rb[1:1]    | passed | 0.00041 seconds |
+./spec/effective_testing_with_rspec/cofee_spec.rb[1:1]    | passed | 0.00046 seconds |
 ./spec/effective_testing_with_rspec/cofee_spec.rb[1:2:1]  | passed | 0.00004 seconds |
 ./spec/effective_testing_with_rspec/sandwich_spec.rb[1:1] | passed | 0.00004 seconds |
 ./spec/effective_testing_with_rspec/sandwich_spec.rb[1:2] | passed | 0.00154 seconds |
